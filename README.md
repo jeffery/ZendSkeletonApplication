@@ -50,3 +50,9 @@ Virtual Host
 ------------
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!
+
+
+Google App Engine
+-----------------
+To get this skeleton application working on Google AppEngine, checkout the googleappengine branch in this fork.
+    git checkout -b googleappengine
