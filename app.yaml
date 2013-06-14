@@ -1,0 +1,19 @@
+application: zf24gae
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /css
+  static_dir: public/css
+
+- url: /img
+  static_dir: public/img
+
+- url: /js
+  static_dir: public/js
+
+- url: /.*
+  script: public/index.php
